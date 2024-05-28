@@ -1,0 +1,775 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Arboria bold';
+    src: url(FONTS/Arboria-Bold.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Arboria light';
+    src: url(FONTS/Arboria-Light.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Arboria medium';
+    src: url(FONTS/Arboria-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Avigea italic';
+    src: url(FONTS/Avigea\ Italic.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Gilroy light';
+    src: url(FONTS/FontsFree-Net-Gilroy-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Avigea';
+    src: url(FONTS/Avigea.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Gilroy extrabold';
+    src: url(FONTS/Gilroy-ExtraBold.otf) format('opentype');
+}
+.contenedor header
+{
+    width: 100%;
+    max-width: 1364px;
+    margin: 0 auto;
+    height: auto;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+}
+.logo
+{
+    margin-left: 50px;
+}
+nav ul
+{
+    list-style: none;
+    padding: 0;
+}
+nav ul li
+{
+    display: inline;
+    margin-right: 50px;
+    font-family: 'Arboria bold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #043D2B;
+}
+nav ul li a
+{
+    text-decoration: none;
+}
+
+.contenedorimg img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Voluntariado    {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 140px; 
+    margin-left: 0px;
+    background-color: #72BC1B;
+}
+.fotov {
+    margin-left: 60px;
+    margin-right: 90px;
+}
+.fotov img{
+    align-items: center;
+    width: auto;
+    height: 360px;
+}
+.textov {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.textov h1 {
+    font-family: 'Arboria';
+    color: #043D2B;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+.textov p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Arboria medium';
+    color: #043D2B;
+    font-size: 15px; 
+    max-width: 70%;
+}
+.participavol    {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 140px; 
+    background-color: #043D2B;
+}
+.textop {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.textop h2 {
+    font-family: 'Arboria bold';
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    width: 50%;
+    margin-left: 170px;
+}
+.textop p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Arboria medium';
+    color: #ffffff;
+    font-size: 15px; 
+    width: 40%;
+    margin-left: 170px;
+}
+.Formulario1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 7px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 180px;
+}
+
+.Formulario1 form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arboria medium';
+}
+
+.Formulario1 label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Formulario1 input[type="text"],
+.Formulario1 input[type="email"],
+.Formulario1 input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Arboria medium';
+}
+
+.Formulario1 input[type="submit"] {
+    padding: 10px;
+    background-color: #043D2B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arboria medium';
+}
+
+.Formulario1 input[type="submit"]:hover {
+    background-color: #035d42;
+}
+
+.Mapa {
+    text-align: center;
+    margin-top: 90px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textom {
+    margin-bottom: 10px;
+}
+
+.textom h2 {
+    font-family: 'Gilroy extrabold';
+    color: #035d42;
+    font-size: 30px;
+    
+}
+
+.textom h3 {
+    font-family: 'Gilroy light';
+    color: #035d42;
+    font-size: 20px;
+
+}
+
+.fotom {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+
+}
+
+.fotom img {
+    width: 60%;
+}
+.agradecimiento {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 90px; 
+    background-color: #72BC1B;
+}
+
+.Formulario2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 7px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 120px;
+    margin-left: 230px;
+}
+
+.Formulario2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Formulario2 label {
+    margin-bottom: 10px;
+    color: #035d42;
+    font-family: 'Arboria medium';
+}
+
+.Formulario2 input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Arboria medium';
+}
+
+.Formulario2 input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #043D2B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arboria medium';
+}
+
+.Formulario2 input[type="submit"]:hover {
+    background-color: #035d42;
+    font-family: 'Arboria medium';
+}
+
+.textoc h2 {
+    color: #043D2B;
+    font-family: 'Arboria bold';
+    font-size: 30px;
+    width: 50%;
+   
+}
+.footer {
+    margin-top: 100px;
+    background-image: url('IMG\ FOOTER_2.png');
+    margin-bottom: 1px; 
+    background-size: cover; 
+    color: #fff; 
+    padding: 20px 0; 
+
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px; 
+}
+
+.footer .columna {
+    width: 30%;
+    margin-bottom: 1px; 
+    margin-left: 90px;
+}
+.footer h3
+{
+    font-family: 'Arboria';
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.footer p
+{
+    font-family: 'Arboria';
+    color: white;
+    font-size: 13px;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+}
+ul li
+{
+    font-family: 'Arboria';
+    font-size: 15px;
+    color: white;
+    margin-left: 55px;
+}
+ul li a
+{
+    text-decoration: none;
+}
+/* Media Queries */
+
+/* 480px */
+@media screen and (min-width: 166px) and (max-width: 768px) {
+    .logo {
+        margin-left: 0px;
+    }
+    nav ul li {
+        font-size: 16px;
+     }
+    .contenedorimg img {
+        width: 100%;
+    }
+    .Voluntariado {
+        flex-direction: column;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .fotov {
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .fotov img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        padding: 10px;
+        margin-bottom: -20px;
+    }
+
+    .textov {
+        text-align: center;
+        margin: 25px 0;
+        max-width: 90%;
+        
+    }
+
+    .textov h1 {
+        font-size: 25px;
+    }
+
+    .textov p {
+        font-size: 13px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .participavol {
+        flex-direction: column;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    .textop h2 {
+        width: 80%;
+        margin: 5px auto;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 23px;
+    }
+    .textop p {
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .Formulario1 {
+        margin: 20px auto;
+        max-width: 70%;
+    }
+    .Mapa {
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .textom h2 {
+        font-size: 24px;
+    }
+
+    .textom h3 {
+        font-size: 18px;
+    }
+
+    .fotom img {
+        width: 90%;
+        max-width: 100%;
+    }
+    .agradecimiento {
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+        }
+
+    .Formulario2 {
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        width: 70%;
+        max-width: 100%;
+    }
+
+    .textoc h2 {
+        font-size: 23px;
+        width: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .footer {
+        margin-top: 50px; 
+        padding: 10px 0; 
+        background-size: cover;
+    }
+
+    .footer .container {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 70px;
+    }
+
+    .footer .columna {
+        width:80%; 
+        margin-bottom: -5px; 
+        margin-left: 0; 
+    }
+
+    .footer h3 {
+        font-size: 16px; 
+    }
+
+    .footer p {
+        font-size: 12px; 
+    }
+
+    .footer .container img {
+        max-width: 70%; 
+        height: auto; 
+    }
+
+    ul {
+        margin-top: 20px; /
+    }
+
+    ul li {
+        margin-left: 0; 
+    }
+}
+/* 768px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        padding: 5px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    nav ul li {
+        font-size: 16px;
+        display: inline;
+        margin-right: 10px;
+    }
+    .contenedorimg img {
+        width: 100%;
+    }
+    .Voluntariado {
+        margin-top: 70px;
+        height: 250px;
+    }
+
+    .fotov {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotov img {
+        height: 300px; /* Ajuste de altura para que encaje mejor en el diseño responsivo */
+        width: auto;
+        margin-right: -30px;
+    }
+
+    .textov {
+        margin-right: 50px;
+        text-align: center;
+        margin-left: -20px;
+
+    }
+
+    .textov h1 {
+        font-size: 28px;
+    }
+
+    .textov p {
+        font-size: 14px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .participavol {
+        height: 300px;
+        margin-top: 120px;
+    }
+
+    .textop {
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .textop h2 {
+        margin-left: auto;
+        margin-right: 80px;
+        width: 70%;
+        font-size: 24px;
+    }
+
+    .textop p {
+        margin-left: auto;
+        margin-right: 80px;
+        width: 70%;
+        }
+
+    .Formulario1 {
+        margin-right: 45px;
+    }  
+    .agradecimiento {
+        height: auto;
+        margin-top: 70px;
+    }
+
+    .Formulario2 {
+        max-width: 45%;
+        margin: 0 auto;
+        margin-right: 30px;
+        margin-left: 120px;
+    }
+   
+    .textoc h2 {
+        font-size: 23px;
+        width: 80%;
+        text-align: center;
+        padding: 20px;
+    }
+    .footer {
+        margin-bottom: 1px;
+        margin-top: 100px; 
+        padding: 20px 0; 
+        background-size: cover;
+    }
+
+    .footer .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1px; 
+        align-items: center; 
+        margin-left: 70px;
+    }
+
+      .footer .columna {
+        width:80%; 
+        margin-bottom: 0px; 
+        margin-left: -40px;
+    }
+
+    .footer h3 {
+        font-size: 16px; 
+    }
+
+    .footer p {
+        font-size: 12px; 
+    }
+
+    .footer .container img {
+        max-width: 50%; 
+        height: auto; 
+        margin-left: 10px;
+    }
+
+    .footer ul {
+        margin-top: 10px; 
+    }
+
+    .footer ul li {
+        margin-left: 40px; 
+    }
+}
+
+/* 1024px */
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .header {
+        padding: 5px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    nav ul li {
+        font-size: 16px;
+        display: inline;
+        margin-right: 10px;
+    }
+    .contenedorimg img {
+        width: 100%;
+    }
+    .Voluntariado {
+        margin-top: 140px;
+        height: 250px;
+    }
+
+    .fotov {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotov img {
+        height: 330px; /* Ajuste de altura para que encaje mejor en el diseño responsivo */
+        width: auto;
+        margin-right: -30px;
+        margin-left: 20px;
+    }
+
+    .textov {
+        margin-right: 50px;
+        text-align: center;
+        margin-left: -70px;
+
+    }
+
+    .textov h1 {
+        font-size: 28px;
+    }
+
+    .textov p {
+        font-size: 14px;
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .participavol {
+        height: 300px;
+        margin-top: 150px;
+    }
+
+    .textop {
+        margin-right: -100px;
+        text-align: center;
+    }
+
+    .textop h2 {
+        margin-left: auto;
+        margin-right: 280px;
+        width: 50%;
+        font-size: 28px;
+    }
+
+    .textop p {
+        margin-left: auto;
+        margin-right: 280px;
+        width: 50%;
+        text-align: center;
+        }
+
+    .Formulario1 {
+        margin-right: 150px;
+    }  
+    .agradecimiento {
+        height: 200px;
+        margin-top: 70px;
+    }
+
+    .Formulario2 {
+        max-width: 25%;
+        margin: 0 auto;
+        margin-left: 240px;
+        margin-right: 100px;
+    }
+   
+    .textoc h2 {
+        font-size: 30px;
+        width: 60%;
+        padding: 20px;
+    }
+    .footer {
+        margin-bottom: 1px;
+        margin-top: 100px; 
+        padding: 20px 0; 
+        background-size: cover;
+    }
+
+    .footer .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1px; 
+        align-items: center; 
+        margin-left: 70px;
+    }
+
+      .footer .columna {
+        width:80%; 
+        margin-bottom: 0px; 
+        margin-left: 40px; 
+    }
+
+    .footer h3 {
+        font-size: 23px; 
+    }
+
+    .footer p {
+        font-size: 15px; 
+    }
+
+    .footer .container img {
+        max-width: 50%; 
+        height: auto; 
+        margin-left: 10px;
+    }
+
+    .footer ul {
+        margin-top: 17px; 
+    }
+
+    .footer ul li {
+        margin-left: 40px; 
+    }
+}

@@ -1,0 +1,729 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Arboria bold';
+    src: url(FONTS/Arboria-Bold.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Arboria light';
+    src: url(FONTS/Arboria-Light.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Arboria medium';
+    src: url(FONTS/Arboria-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Avigea italic';
+    src: url(FONTS/Avigea\ Italic.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Gilroy light';
+    src: url(FONTS/FontsFree-Net-Gilroy-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Avigea';
+    src: url(FONTS/Avigea.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Gilroy extrabold';
+    src: url(FONTS/Gilroy-ExtraBold.otf) format('opentype');
+}
+.contenedor header
+{
+    width: 100%;
+    max-width: 1364px;
+    margin: 0 auto;
+    height: auto;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+}
+.logo
+{
+    margin-left: 50px;
+}
+nav ul
+{
+    list-style: none;
+    padding: 0;
+}
+nav ul li
+{
+    display: inline;
+    margin-right: 50px;
+    font-family: 'Arboria bold', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #043D2B;
+}
+nav ul li a
+{
+    text-decoration: none;
+}
+
+.contenedorimg img
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Nuestroscamp
+{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Nuestroscamp h1
+{
+    font-family: 'Gilroy extrabold';
+    color: #72BC1B;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+.Contenedore {
+    display: flex;
+    background-color: #72BC1B;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.videoe {
+    margin-left: 60px;
+    margin-right: 90px; /* Espacio entre el video y el texto */
+}
+.videoe .Elena{
+    width: 600px; /* Ajusta el tamaño del video */
+    height: auto; /* Mantiene la proporción del video */
+}
+
+.textoe {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoe h1 {
+    font-family: 'Arboria';
+    color: #043D2B;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+
+.textoe p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Arboria medium';
+    color: #043D2B;
+    font-size: 15px; 
+    max-width: 70%;
+}
+
+.Contenedorj {
+    display: flex;
+    background-color: #043D2B; 
+    padding: 0px;
+}
+
+.textoj {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.videoj {
+    flex: 1;
+    margin-right: 80px;
+
+}
+.videoj .Jose{
+    width: 600px; /* Ajusta el tamaño del video */
+    height: auto; /* Mantiene la proporción del video */
+}
+
+.textoj h1 {
+    font-family: 'Arboria';
+    color: #ffffff;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+
+.textoj p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Arboria medium';
+    color: #ffffff;
+    font-size: 15px; 
+    max-width: 70%;
+}
+
+
+.Contenedorp {
+    display: flex;
+    background-color: #72BC1B;
+    padding: 0px;
+}
+
+.videop {
+    margin-left: 60px;
+    margin-right: 90px; /* Espacio entre el video y el texto */
+}
+.videop .Pedro{
+    width: 600px; /* Ajusta el tamaño del video */
+    height: auto; /* Mantiene la proporción del video */
+}
+
+.textop {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textop h1 {
+    font-family: 'Arboria';
+    color: #043D2B;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+
+.textop p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'Arboria medium';
+    color: #043D2B;
+    font-size: 15px; 
+    max-width: 70%;
+}
+
+.comentarios{
+    margin-top: 70px;
+    width: 100%;
+}
+.footer {
+    margin-top: 100px;
+    background-image: url('IMG\ FOOTER_2.png');
+    margin-bottom: 1px; 
+    background-size: cover; 
+    color: #fff; 
+    padding: 20px 0; 
+
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px; 
+}
+
+.footer .columna {
+    width: 30%;
+    margin-bottom: 1px; 
+    margin-left: 90px;
+}
+.footer h3
+{
+    font-family: 'Arboria';
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.footer p
+{
+    font-family: 'Arboria';
+    color: white;
+    font-size: 13px;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+}
+ul li
+{
+    font-family: 'Arboria';
+    font-size: 15px;
+    color: white;
+    margin-left: 55px;
+}
+ul li a
+{
+    text-decoration: none;
+}
+/* Media Queries */
+
+/* 480px */
+@media screen and (min-width: 166px) and (max-width: 768px) {
+    .logo {
+        margin-left: 30px;
+    }
+    nav ul li {
+        font-size: 16px;
+    }
+    .contenedorimg img {
+        width: 100%;
+    }
+    .Nuestroscamp{
+        text-align: center;
+        margin: 0 auto;
+        height: 50px;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .Nuestroscamp h1{
+        font-size: 25px;
+    }
+    .Contenedore{
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+        margin-top: 10px;
+        height: 450px;
+    }
+    .videoe{
+        width: 100%; 
+    }
+    .videoe .Elena{
+        width: 90%; 
+        margin-left: 30px;
+    }
+    .textoe {
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .textoe h1 {
+        font-size: 30px;
+    }
+    
+    .textoe p {
+        margin-top: 0px;
+        font-size: 14px;
+        margin: auto; 
+    }
+    .Contenedorj{
+        flex-direction: column-reverse; 
+        align-items: center; 
+        text-align: center;
+        margin-top: 10px;
+        height: 450px;
+    }
+    .videoj{
+        width: 100%; 
+    }
+    .videoj .Jose{
+        width: 90%; 
+        margin-left: 60px;
+        margin-right: 0px;
+    }
+    .textoj {
+        margin-top: 0px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .textoj h1 {
+        font-size: 30px;
+    }
+    
+    .textoj p {
+        margin-top: 0px;
+        font-size: 14px;
+        margin: auto; 
+    }
+    .Contenedorp{
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+        margin-top: 10px;
+        height: 450px;
+    }
+    .videop{
+        width: 100%; 
+    }
+    .videop .Pedro{
+        width: 90%; 
+        margin-left: 30px;
+    }
+    .textop {
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .textop h1 {
+        font-size: 30px;
+    }
+    
+    .textop p {
+        margin-top: 0px;
+        font-size: 14px;
+        margin: auto; 
+    }
+    .comentarios img {
+        width: 100%;
+    }
+    .footer {
+        margin-top: 50px; 
+        padding: 10px 0; 
+        background-size: cover;
+    }
+
+    .footer .container {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 70px;
+    }
+
+    .footer .columna {
+        width:80%; 
+        margin-bottom: -5px; 
+        margin-left: 0; 
+    }
+
+    .footer h3 {
+        font-size: 16px; 
+    }
+
+    .footer p {
+        font-size: 12px; 
+    }
+
+    .footer .container img {
+        max-width: 70%; 
+        height: auto; 
+    }
+
+    ul {
+        margin-top: 20px; /
+    }
+
+    ul li {
+        margin-left: 0; 
+    }
+}
+    /* 768px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        padding: 5px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    nav ul li {
+        font-size: 16px;
+        display: inline;
+        margin-right: 10px;
+    }
+    .contenedorimg img {
+        width: 100%;
+    }
+    .Nuestroscamp{
+        text-align: center;
+        margin: 0 auto;
+        height: 90px;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .Nuestroscamp h1{
+        font-size: 30px;
+    }
+    .Contenedore{
+        align-items: center; 
+        text-align: center;
+        margin-top: 30px;
+        height: 230px;
+    }
+    .videoe{
+        width: 45%; 
+    }
+    .videoe .Elena{
+        max-width: 100%; 
+        
+    }
+    .textoe {
+        margin-right: 70px;
+        margin-left: -20px;
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .textoe h1 {
+        font-size: 28px;
+    }
+    
+    .textoe p {
+        margin-top: 0px;
+        font-size: 12px;
+        margin: auto; 
+        max-width: 100%;
+    }
+    .Contenedorj{
+        align-items: center; 
+        text-align: center;
+        margin-top: 30px;
+        height: 230px;
+    }
+    .videoj{
+        width: 50%; 
+        margin-right: 30px;
+    }
+    .videoj .Jose{
+        max-width: 100%; 
+        margin-right: 0px;
+        margin-left: 20px;
+        
+    }
+    .textoj {
+        margin-right: 20px;
+        margin-left: 60px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .textoj h1 {
+        font-size: 28px;
+    }
+    
+    .textoj p {
+        margin-top: 0px;
+        font-size: 12px;
+        margin: auto; 
+        max-width: 80%;
+    }
+
+    .Contenedorp{
+        align-items: center; 
+        text-align: center;
+        margin-top: 30px;
+        height: 230px;
+    }
+    .videop{
+        width: 45%; 
+    }
+    .videop .Pedro{
+        max-width: 100%; 
+        
+    }
+    .textop {
+        margin-right: 70px;
+        margin-left: -20px;
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .textop h1 {
+        font-size: 28px;
+    }
+    
+    .textop p {
+        margin-top: 0px;
+        font-size: 12px;
+        margin: auto; 
+        max-width: 100%;
+    }
+    .comentarios img {
+        width: 100%;
+    }
+    .footer {
+        margin-bottom: 1px;
+        margin-top: 100px; 
+        padding: 20px 0; 
+        background-size: cover;
+    }
+
+    .footer .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1px; 
+        align-items: center; 
+        margin-left: 70px;
+    }
+
+      .footer .columna {
+        width:80%; 
+        margin-bottom: 0px; 
+        margin-left: -40px;
+    }
+
+    .footer h3 {
+        font-size: 16px; 
+    }
+
+    .footer p {
+        font-size: 12px; 
+    }
+
+    .footer .container img {
+        max-width: 50%; 
+        height: auto; 
+        margin-left: 10px;
+    }
+
+    .footer ul {
+        margin-top: 10px; 
+    }
+
+    .footer ul li {
+        margin-left: 40px; 
+    }
+}
+/* 1024px */
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .header {
+        padding: 5px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    nav ul li {
+        font-size: 16px;
+        display: inline;
+        margin-right: 10px;
+    }
+    .contenedorimg img {
+        width: 100%;
+    }
+    .Nuestroscamp{
+        text-align: center;
+        margin: 0 auto;
+        height: 90px;
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .Nuestroscamp h1{
+        font-size: 35px;
+    }
+    .Contenedore{
+        align-items: center; 
+        text-align: center;
+        margin-top: 30px;
+        height: 330px;
+    }
+    .videoe{
+        width: 50%; 
+    }
+    .videoe .Elena{
+        max-width: 100%; 
+        
+    }
+    .textoe {
+        margin-right: 70px;
+        margin-left: -20px;
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .textoe h1 {
+        font-size: 32px;
+    }
+    
+    .textoe p {
+        margin-top: 0px;
+        font-size: 14px;
+        margin: auto; 
+        max-width: 100%;
+    }
+    .Contenedorj{
+        align-items: center; 
+        text-align: center;
+        margin-top: 30px;
+        height: 330px;
+    }
+    .videoj{
+        width: 60%; 
+        margin-right: 30px;
+    }
+    .videoj .Jose{
+        max-width: 100%; 
+        margin-right: 70px;
+        margin-left: 10px;
+        
+    }
+    .textoj {
+        margin-right: 30px;
+        margin-left: 60px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    .textoj h1 {
+        font-size: 32px;
+    }
+    
+    .textoj p {
+        margin-top: 0px;
+        font-size: 14px;
+        margin: auto; 
+        max-width: 80%;
+    }
+
+    .Contenedorp{
+        align-items: center; 
+        text-align: center;
+        margin-top: 30px;
+        height: 330px;
+    }
+    .videop{
+        width: 50%; 
+    }
+    .videop .Pedro {
+        max-width: 100%; 
+        
+    }
+    .textop {
+        margin-right: 70px;
+        margin-left: -20px;
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .textop h1 {
+        font-size: 32px;
+    }
+    
+    .textop p {
+        margin-top: 0px;
+        font-size: 14px;
+        margin: auto; 
+        max-width: 100%;
+    }
+    .comentarios img {
+        width: 100%;
+    }
+   
+}
